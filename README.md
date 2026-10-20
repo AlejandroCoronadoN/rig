@@ -16,6 +16,7 @@ Working on it with an agent: start at [AGENTS.md](AGENTS.md).
 Agents that run in CI need a model key in the repo's secrets. Any vendor works.
 
 No paid plan? A free Google AI Studio key works through its OpenAI-compatible endpoint
-(`https://generativelanguage.googleapis.com/v1beta/openai`). Use `gemini-flash-lite-latest`:
+(`https://generativelanguage.googleapis.com/v1beta/openai`). Use `gemini-flash-latest` for the agent that
+writes tests (smaller models write weaker tests) and `gemini-flash-lite-latest` for the rest:
 `gemini-flash-latest` runs dry at about 20 calls a day, and every agent in this repo shares the one key.
 The live quota is on the key's page in AI Studio.
