@@ -65,8 +65,9 @@ Done when: `pnpm test` is green with the new tests.
 
 Rook reviews the page from a copy, not from the lane. Run rig and save `/digest/2026-10-28` as
 one HTML file, lane banner included (a command, not a browser's "save as"; the page is
-self-contained, ADR 0001). Put it in the review bucket so it opens from a public HTTPS link. Send
-Rook the link and the issues for this plan.
+self-contained, ADR 0001). Put it on your own public host, one you can delete it from (any bucket
+or static host, ADR 0003), so it opens from a public HTTPS link. Send Rook the link and the issues
+for this plan.
 
 Done when: Rook has reviewed the preview.
 

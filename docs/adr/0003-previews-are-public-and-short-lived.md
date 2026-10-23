@@ -10,7 +10,7 @@ all. Nobody had removed it, because removing it was nobody's issue.
 
 ## Decision
 
-- A preview is a static copy of the page (one HTML file) in the review bucket behind a public HTTPS link. Any bucket and
+- A preview is a static copy of the page (one HTML file) on a public host behind a public HTTPS link. Any bucket and
   any CLI will do, as long as the link is a real host (not an IP, not localhost) and we can delete it.
 - Every preview is deleted once its review is in, and the plan has an issue for that.
 - No previews in the repo, in issues, or in chat attachments: those can't be taken down.

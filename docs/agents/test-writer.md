@@ -26,8 +26,7 @@ rules: docs/adr/0006-agents-that-write.md
 1. Find the behavior the diff changes in `src/`. One behavior: the one the pull request is for.
 2. Write one test that pins it. Import the code under test from `src/` and call it the way the
    app does. Assert what a user of rig would see, not how the code gets there.
-3. The test must **fail on the base branch** and **pass on the pull request**. A test that passes
-   on both proves nothing: it was never about this change.
+3. The test must **fail on the base branch** and **pass on the pull request**.
 4. Commit only the new test file, to the pull request's branch.
 
 ## What you never do
