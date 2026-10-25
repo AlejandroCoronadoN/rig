@@ -7,6 +7,5 @@
 {"at":"2026-10-30T03:00:04+01:00","job":"lane/sync","status":"ok","owner":"rook"}
 {"at":"2026-10-30T04:00:01+01:00","job":"notes/backup","status":"ok","owner":"lane-07"}
 {"at":"2026-10-30T04:00:05+01:00","job":"lane/sync","status":"ok","owner":"rook"}
-{"at":"2026-10-30T04:04:00+01:00","job":"—","status":"ok","owner":"—","schedule":"—"}
 {"at":"2026-10-30T05:00:04+01:00","job":"lane/sync","status":"ok","owner":"rook"}
 {"at":"2026-10-30T05:41:11+01:00","job":"digest/render","status":"ok","owner":"rook"}
